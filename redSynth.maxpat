@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 186.0, 44.0, 1346.0, 876.0 ],
+		"rect" : [ 135.0, 241.0, 1346.0, 876.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1848,7 +1848,6 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1922,7 +1921,7 @@
 									"patching_rect" : [ 342.0, 261.0, 160.0, 145.0 ],
 									"range" : 12,
 									"size" : 12,
-									"table_data" : [ 0, 0, 0, 0, 0, 0, 0, 0, 7, 7, 7, 7, 7 ]
+									"table_data" : [ 0, 0, 0, 3, 3, 3, 5, 7, 7, 7, 10, 10, 10 ]
 								}
 
 							}
@@ -3868,14 +3867,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "cv.jit.orientation.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cv.jit.elongation.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}

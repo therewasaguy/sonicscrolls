@@ -8,9 +8,9 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 417.0, 168.0, 1172.0, 468.0 ],
+		"rect" : [ 357.0, 320.0, 1172.0, 468.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -28,6 +28,48 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-140",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1332.113647, 293.0, 145.0, 20.0 ],
+					"text" : "loadmess color 1. 0. 0. 1."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-71",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 834.5, 314.0, 145.0, 20.0 ],
+					"text" : "loadmess color 1. 0. 1. 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-68",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 487.0, 314.0, 145.0, 20.0 ],
+					"text" : "loadmess color 1. 1. 0. 0."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-202",
 					"maxclass" : "live.gain~",
@@ -219,7 +261,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 955.75, 10.0, 32.5, 18.0 ],
-					"presentation_rect" : [ 958.0, 2.0, 0.0, 0.0 ],
 					"text" : "3.2"
 				}
 
@@ -234,7 +275,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 866.0, -3.0, 34.0, 18.0 ],
-					"presentation_rect" : [ 870.0, -5.0, 0.0, 0.0 ],
 					"text" : "0.89"
 				}
 
@@ -578,7 +618,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1098.477295, 118.0, 118.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 845.840942, -2.136353, 136.090958, 20.0 ],
+					"presentation_rect" : [ 845.840942, 7.681824, 136.090958, 20.0 ],
 					"text" : "click to set \"Blue\""
 				}
 
@@ -711,7 +751,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 979.0, 56.0, 80.0, 18.0 ],
-					"presentation_rect" : [ 766.0, 39.0, 0.0, 0.0 ],
 					"text" : "saturation $1"
 				}
 
@@ -726,7 +765,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 856.0, 56.0, 70.0, 18.0 ],
-					"presentation_rect" : [ 646.0, 42.0, 0.0, 0.0 ],
 					"text" : "contrast $1"
 				}
 
@@ -6482,7 +6520,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1062.5, 782.0, 50.0, 18.0 ],
-					"text" : "100"
+					"text" : "99"
 				}
 
 			}
@@ -7148,6 +7186,21 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
+									"frgb" : 0.0,
+									"id" : "obj-5",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 467.0, 310.0, 156.0, 47.0 ],
+									"text" : "this will be for training to recognize shapes. Not fully implemented yet"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
 									"id" : "obj-3",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -7510,7 +7563,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 1449.5, 320.0, 81.0, 20.0 ],
+					"patching_rect" : [ 1465.75, 328.751312, 81.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -13638,7 +13691,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1213.75, 293.0, 103.0, 18.0 ],
+					"patching_rect" : [ 1198.75, 295.0, 103.0, 18.0 ],
 					"text" : "color $4 $1 $2 $3"
 				}
 
@@ -13827,7 +13880,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 190.0, 1261.5, 45.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 352.681824, 45.0, 45.0 ]
+					"presentation_rect" : [ 22.0, 398.681824, 45.0, 45.0 ]
 				}
 
 			}
@@ -13843,10 +13896,10 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 186.0, 1140.5, 82.0, 31.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.0, 309.5, 82.0, 31.0 ],
+					"presentation_rect" : [ 22.0, 355.5, 82.0, 31.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.gain~[971]",
+							"parameter_longname" : "live.gain~[4]",
 							"parameter_shortname" : "live.gain~",
 							"parameter_type" : 0,
 							"parameter_mmin" : -70.0,
@@ -18594,7 +18647,7 @@
 										}
 ,
 										"rect" : [ 1003.0, 44.0, 640.0, 480.0 ],
-										"bgcolor" : [ 0.886275, 0.87451, 0.811765, 1.0 ],
+										"bgcolor" : [ 0.882353, 0.866667, 0.819608, 1.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -20629,8 +20682,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 224.0, 168.181824, 189.0, 18.0 ],
-					"text" : "read Ines_-_Way_Too_Much.mov"
+					"patching_rect" : [ 224.0, 168.181824, 190.0, 18.0 ],
+					"text" : "read Ines_-_Way_Too_Much.mp4"
 				}
 
 			}
@@ -21284,6 +21337,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-39", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-140", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -21315,7 +21377,7 @@
 					"destination" : [ "obj-39", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 521.716492, 317.108917, 1223.25, 317.108917 ],
+					"midpoints" : [ 521.716492, 359.108917, 1223.25, 359.108917 ],
 					"source" : [ "obj-141", 0 ]
 				}
 
@@ -22323,6 +22385,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-47", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-68", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-66", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -22345,6 +22416,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-71", 0 ]
 				}
 
 			}
@@ -22680,13 +22760,13 @@
 			"obj-119" : [ "Blue Volume", "Blue Volume", 0 ],
 			"obj-101::obj-142" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-100::obj-142" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-142" : [ "live.gain~[971]", "live.gain~", 0 ],
-			"obj-78::obj-142" : [ "live.gain~[15]", "live.gain~", 0 ]
+			"obj-78::obj-142" : [ "live.gain~[15]", "live.gain~", 0 ],
+			"obj-142" : [ "live.gain~[4]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "redSynth.maxpat",
-				"bootpath" : "/Users/jasonsigal/Desktop/ITP_Spring2014/LivePerformance/_colorasound1/SonicScrolls_v2",
+				"bootpath" : "/Users/jasonsigal/Desktop/ITP_Spring2014/LivePerformance/sonicscrolls",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
@@ -22694,27 +22774,27 @@
 , 			{
 				"name" : "cv.jit.orientation.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "cv.jit.elongation.maxpat",
 				"bootpath" : "/Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
-				"patcherrelativepath" : "../../../../../../../Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/Cycling '74/cv.jit-support/Abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "greenSynth.maxpat",
-				"bootpath" : "/Users/jasonsigal/Desktop/ITP_Spring2014/LivePerformance/_colorasound1/SonicScrolls_v2",
+				"bootpath" : "/Users/jasonsigal/Desktop/ITP_Spring2014/LivePerformance/sonicscrolls",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drumSynth.maxpat",
-				"bootpath" : "/Users/jasonsigal/Desktop/ITP_Spring2014/LivePerformance/_colorasound1/SonicScrolls_v2",
+				"bootpath" : "/Users/jasonsigal/Desktop/ITP_Spring2014/LivePerformance/sonicscrolls",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
